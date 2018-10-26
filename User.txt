@@ -1,0 +1,7 @@
+Level superadmin
+username : admin
+password : admin123
+
+Level sekolah
+username : smpmuhdepok
+password : smpmuhdepok

@@ -1,0 +1,9 @@
+<?php
+unset($_SESSION['id']);
+unset($_SESSION['level']);
+unset($_SESSION['username']);
+?>
+<script>document.location.href="../../dapodik"
+</script>
+<?
+?>

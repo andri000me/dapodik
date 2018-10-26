@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trial Menu</title>
+	<script type="text/javascript">
+		function activate(elmnt){
+			var a = document.getElementsByTagName("a")
+			for(var i = 0; i<a.length; i++){
+				a[i].classList.remove("active");
+			}
+			elmnt.classList.add("active");
+		}
+	</script>
+	<style type="text/css">
+		.active{
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+
+<p><a onclick="activate(this)" class="">Satu</a></p>
+<p><a onclick="activate(this)" class="">Dua</a></p>
+<p><a onclick="activate(this)" class="">Tiga</a></p>
+<p><a onclick="activate(this)" class="">Empat</a></p>
+
+</body>
+</html>
